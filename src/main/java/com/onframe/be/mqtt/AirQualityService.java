@@ -53,6 +53,7 @@ public class AirQualityService {
 
             AirQualityReading reading = AirQualityReading.builder()
                     .sensorId(sensorId)
+                    .pm1(toDouble(map.get("pm1"), toDouble(map.get("pm01"), toDouble(map.get("pm_1")))))
                     .pm25(toDouble(map.get("pm25")))
                     .pm10(toDouble(map.get("pm10")))
                     .co2(toDouble(map.get("co2")))
