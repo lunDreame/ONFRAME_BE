@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class OnframeBeApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(OnframeBeApplication.class, args);
     }
-
 }

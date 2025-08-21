@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: onframe-be
+  main:
+    web-application-type: servlet
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
+homeassistant:
+  base-url: "http://HOME_ASSISTANT_HOST:8123"
+  token: "${HA_TOKEN}"
+
+mqtt:
+  broker-url: "tcp://MQTT_BROKER_HOST:1883"
+  client-id: "onframe-be-${random.value}"
+  username: ""
+  password: ""
+  topics:
+    - "onframe/air/#"
+
+onframe:
+  cors:
+    allowed-origins:
+      - "http://localhost:5173"
+      - "http://localhost:3000"
+  air:
+    history-size: 200
