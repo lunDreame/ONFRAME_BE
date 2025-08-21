@@ -8,6 +8,7 @@ import java.util.Map;
 @Getter @Setter @Builder @NoArgsConstructor @AllArgsConstructor
 public class AirQualityReading {
     private String sensorId;
+    private Double pm1;
     private Double pm25;
     private Double pm10;
     private Double co2;

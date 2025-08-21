@@ -1,0 +1,6 @@
+sudo raspi-config nonint do_serial_hw 0    # “Login shell on serial? No”
+sudo raspi-config nonint do_serial_cons 1  # “Serial hardware enabled? Yes”
+
+/bin/grep -q '^enable_uart=1' /boot/firmware/config.txt || echo 'enable_uart=1' | sudo tee -a /boot/firmware/config.txt
+
+sudo reboot
