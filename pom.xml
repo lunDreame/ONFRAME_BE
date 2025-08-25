@@ -8,7 +8,7 @@
         <version>3.3.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.onframe</groupId>
+    <groupId>com.neovision.onframe</groupId>
     <artifactId>onframe-be</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ONFRAME_BE</name>
@@ -113,6 +113,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <jvmArguments>
+                        --add-opens java.base/java.net=ALL-UNNAMED
+                    </jvmArguments>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>

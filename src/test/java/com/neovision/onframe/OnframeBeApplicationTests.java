@@ -1,10 +1,10 @@
-package com.onframe.be;
+package com.neovision.onframe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OnframeBeApplicationTests {
+class NeovisionOnframeApplicationTests {
 
     @Test
     void contextLoads() {

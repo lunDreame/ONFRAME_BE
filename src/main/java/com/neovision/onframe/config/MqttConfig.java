@@ -1,6 +1,5 @@
-package com.onframe.be.config;
+package com.neovision.onframe.config;
 
-import com.onframe.be.mqtt.AirQualityService;
 import lombok.RequiredArgsConstructor;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.springframework.context.annotation.Bean;
@@ -13,6 +12,8 @@ import org.springframework.integration.mqtt.core.MqttPahoClientFactory;
 import org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter;
 import org.springframework.integration.mqtt.support.DefaultPahoMessageConverter;
 import org.springframework.messaging.*;
+
+import com.neovision.onframe.mqtt.AirQualityService;
 
 @Configuration
 @RequiredArgsConstructor

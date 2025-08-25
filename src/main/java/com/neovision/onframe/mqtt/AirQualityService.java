@@ -1,10 +1,11 @@
-package com.onframe.be.mqtt;
+package com.neovision.onframe.mqtt;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.onframe.be.config.FrontendProperties;
-import com.onframe.be.model.AirQualityReading;
-import com.onframe.be.util.BoundedDeque;
+import com.neovision.onframe.config.FrontendProperties;
+import com.neovision.onframe.model.AirQualityReading;
+import com.neovision.onframe.util.BoundedDeque;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.integration.annotation.ServiceActivator;

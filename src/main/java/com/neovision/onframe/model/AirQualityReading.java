@@ -1,4 +1,4 @@
-package com.onframe.be.model;
+package com.neovision.onframe.model;
 
 import lombok.*;
 

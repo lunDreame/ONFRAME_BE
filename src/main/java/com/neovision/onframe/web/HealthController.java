@@ -1,4 +1,4 @@
-package com.onframe.be.web;
+package com.neovision.onframe.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

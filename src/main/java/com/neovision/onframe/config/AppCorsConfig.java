@@ -1,4 +1,4 @@
-package com.onframe.be.config;
+package com.neovision.onframe.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;

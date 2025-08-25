@@ -1,4 +1,4 @@
-package com.onframe.be.web;
+package com.neovision.onframe.web;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;

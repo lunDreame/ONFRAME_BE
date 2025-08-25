@@ -1,10 +1,12 @@
-package com.onframe.be.mqtt;
+package com.neovision.onframe.mqtt;
 
-import com.onframe.be.model.AirQualityReading;
-import com.onframe.be.util.BoundedDeque;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+import com.neovision.onframe.model.AirQualityReading;
+import com.neovision.onframe.util.BoundedDeque;
+
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;

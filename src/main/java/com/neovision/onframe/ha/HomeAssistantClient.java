@@ -1,4 +1,4 @@
-package com.onframe.be.ha;
+package com.neovision.onframe.ha;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpMethod;
